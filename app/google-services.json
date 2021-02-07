@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "863378337075",
+    "project_id": "login-tantto",
+    "storage_bucket": "login-tantto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863378337075:android:44a074a5e0a2e58765a246",
+        "android_client_info": {
+          "package_name": "com.example.login_tantto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863378337075-aqnflovi5aginusht3ep6gatreivjsrc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login_tantto",
+            "certificate_hash": "2cc8ccccba945a333f368d41fb25b1b05fa28f63"
+          }
+        },
+        {
+          "client_id": "863378337075-nob49olk99rqp0o6a0513l1peh85qn6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6JyhaYHkHBwFdbPRovoWRETyHfmYsIYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863378337075-nob49olk99rqp0o6a0513l1peh85qn6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

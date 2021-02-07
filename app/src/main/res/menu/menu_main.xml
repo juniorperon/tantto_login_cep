@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/group_logado" android:visible="false">
+
+        <item
+            android:id="@+id/VerificarCep"
+            android:title="Verificar Cep" />
+
+        <item android:id="@+id/menu_config"
+            android:title="Configurar"/>
+
+        <item android:id="@+id/menu_sair"
+            android:title="Sair"/>
+
+
+    </group>
+
+    <group android:id="@+id/group_deslogado" android:visible="false">
+        <item android:id="@+id/menu_cadastrar"
+            android:title="Cadastrar / Entrar"
+            app:showAsAction="always"/>
+
+
+    </group>
+
+    <group android:id="@+id/group_voltar" android:visible="false">
+        <item android:id="@+id/menu_voltar"
+            android:title="Voltar">
+        </item>
+    </group>
+</menu>

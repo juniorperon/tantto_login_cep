@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:layout_width="match_parent">
+
+    <EditText
+        android:digits="0123456789"
+        android:layout_height="wrap_content"
+        android:hint="CEP"
+        android:id="@+id/txtCep"
+        android:textSize="25sp"
+        android:inputType="number"
+        android:maxLength="8"
+        android:gravity="center"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="match_parent">
+
+        <Button
+
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBuscar"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="Buscar CEP"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="match_parent"
+        android:id="@+id/txtResposta"
+        android:textSize="20sp"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>
